@@ -70,5 +70,3 @@ class YoloLoss(nn.Module):
                       self.lambda_noobj*no_obj_loss)
         
         return total_loss
-        
-        
